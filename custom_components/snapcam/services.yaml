@@ -1,0 +1,16 @@
+
+request_snapshot:
+  name: "Request snapshot"
+  description: "Trigger an immediate snapshot for this SnapCam entity."
+  target:
+    entity:
+      domain: camera
+  fields:
+    source_camera:
+      name: "Source camera"
+      description: "Optional camera entity_id to snapshot; if omitted, one of the configured pairs will be chosen."
+      example: "camera.front_door"
+      required: false
+      selector:
+        entity:
+          domain: camera

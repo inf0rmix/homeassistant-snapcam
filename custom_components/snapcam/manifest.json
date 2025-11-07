@@ -1,0 +1,19 @@
+{
+  "domain": "snapcam",
+  "name": "SnapCam",
+  "version": "0.4.16r4",
+  "config_flow": true,
+  "documentation": "https://github.com/yourname/homeassistant-snapcam#readme",
+  "issue_tracker": "https://github.com/yourname/homeassistant-snapcam/issues",
+  "iot_class": "local_push",
+  "dependencies": [
+    "camera"
+  ],
+  "requirements": [],
+  "codeowners": [
+    "@yourname"
+  ],
+  "loggers": [
+    "custom_components.snapcam"
+  ]
+}
